@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <!--Edit the title of the page-->
     <title>HistoricOSM</title>
-    <meta name="description" content="Visor cartográfico creado con cartoDB para la visualización de los datos de patrimonio histórico exixtentes en Openstreetmap">
-    <meta name="author" content="">
+    <meta name="description" content="Visor cartográfico creado con CartoDB para la visualización de los datos de patrimonio histórico existentes en OpenStreetMap">
+    <meta name="author" content="Patricio Soriano">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
     <!--[if lte IE 8]>
@@ -15,41 +15,99 @@
     <link rel="stylesheet" href="css/light-theme.css">
     <link rel="stylesheet" href="css/makeitresponsive.css">
 
+	<style>
+      html, body, #map {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        background: black;
+      }
+ 
+      #layer_selector {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        padding: 0;
+      }
+ 
+      #layer_selector ul {
+        padding: 0; margin: 0;
+        list-style-type: none;
+      }
+ 
+      #layer_selector li {
+        border-bottom: 1px solid #999;
+        padding: 15px 30px;
+        font-family: "Helvetica", Arial;
+        font-size: 13px;
+        color: #444;
+        cursor: auto;
+      }
+ 
+      #layer_selector li:hover {
+        background-color: #F0F0F0;
+        cursor: pointer;
+      }
+ 
+      #layer_selector li.selected {
+        background-color: #EEE;
+      }
+    </style>
 
   </head>
   <body>
 
     <div class="map" id="map"></div>
 
+    <div id="layer_selector" class="cartodb-infobox">
+      <ul>
+        <li id="historic" class="selected">All</li>
+        <li id="ruins">Places</li>
+        <li id="castle">Cables</li>
+      </ul>
+    </div>
+	
     <div class="sidepanel">
       <div class="wrapper">
         <div class="context subheader">
-          <p>Creado por <a href="#">Patricio Soriano - SIGdeletras.com</a></p>
+          <p>Creado por <a href="http://sigdeletras.com/" target="_blank">Patricio Soriano - SIGdeletras.com</a></p>
 
         </div>
         <p><spam style="color: red; font-size: 1.5em;">HistoricOSM</spam> Visor patrimonial</h1>
         <p><spam style="color: red;"> Fecha de actualización: 01/04/2014</spam></h1>
         
-        
-        <p>An earthquake of magnitude 9.0 occurred March 11, 2012, off the northeastern Pacific coast of Japan. The earthquake was followed by a tsunami which would reach 9.3m or higher at Fukushima Prefecture. <a href=''>Combined, the two claimed almost</a> 20,000 lives in the region of Tohoku and triggered nuclear meltdowns at three reactors in Fukushima nuclear plant.</p>
-
-     
+         
         <h3>Description</h3>
              <p>La información asociada es el nombre del elemento tal y como se encuentra en OMS, el municipio y provincia donde está ele elementos patrimonial,obtenido mediante superposición geográfica sobre la capa IGN de provincias. Se añade un enlace para consultar información del elemneot en OMS y enlaces generales de búsqueda por el nombre y municipio en la Wikipedia y el repositorio de imágenes Flickr.Los resultados de búsqueda dependerań de la información disponible en estas dos web y el nombre asignado. Por eso se ha añadido el municipio y la porvincia para poder centra más la consulta.</p>
 
         <h3>Algunas estadísticas</h3>
-        <p>Del total de los municios españoles sólo hay un % de municipos con información de tipo patrimonial en OSM  siendo la media de 0.6 puntos por municipio.El municipio de Madrid el que mayor número de puntos tiene (99), seguido de Córdoba.</p>
+        <p>Del total de los municios españoles sólo hay un % de municipos con información de tipo patrimonial en OSM  siendo la media de 0.6 puntos por municipio.El municipio de <a id="madrid">Madrid</a> el que mayor número de puntos tiene (99), seguido de <a id="cordoba">Córdoba</a>.</p>
         
         Total de puntos 4994.
 
-        Por etiquetado.
-        - Ruinas
-        - Por geometría
-        <h3>Etiquetado</h3>
-        - Etiquetado
+        Por etiquetado:
+        <ul>
+        	<li>Ruinas</li>
+        	<li></li>
+        	<li></li>
+        	<li></li>
+        	<li></li>
+        </ul>
+        
+        Por geometría:
+        <ul>
+        	<li>Ruinas</li>
+        	<li></li>
+        	<li></li>
+        	<li></li>
+        	<li></li>
+        </ul>
+
+        
+        <h3>Etiquetas</h3>
+        
   
-        <h3>Sources</h3>
-        <p>Unexpected discoveries about the <a href="#">Cosmos and our place</a> within it, explorations that are <a href="#">exhilarating</a> to consider. They remind us that humans have evolved to wonder, that understanding is a joy, that knowledge is prerequisite to survival. I believe our future depends powerfully on how well we understand this.</p>
+        <h3>Recursos</h3>
         <ul>
             <li>Datos: OMS</li>
             <li>Plantilla: https://github.com/CartoDB/cartodb-publishing-templates</li>
@@ -67,6 +125,7 @@
 
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false&v=3.8"></script>
     <script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
+  
     <script src="js/historicosm.js"></script>
     
 

@@ -30,6 +30,18 @@
           console.log(err);
         });
       }
+      
+      $('#madrid').click(function(){
+      var position = new L.LatLng(40.716086427192394, -73.99330615997314);
+      var zoom = 15;
+      map.setView(position, zoom)
+      })
+
+      $('#cordoba').click(function(){
+      var position = new L.LatLng(37.883333, -4.766667);
+      var zoom = 14;
+      map.setView(position, zoom)
+      })
 
       window.onload = main;
     
