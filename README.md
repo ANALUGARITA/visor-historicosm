@@ -1,4 +1,4 @@
-visor-historicosm
+Visor HistoricOSM
 =================
 
-Visor patrimonial con datos de OpenStreetMap
+Visor de datos patrimoniales en OpenStreetMap (26/04/2014)
