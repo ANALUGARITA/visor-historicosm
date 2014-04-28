@@ -12,10 +12,11 @@ Total de puntos: 8144
 - Puntos
 - Centroides de polígonos
 
-Puntos por *tags*
 
-| ***Tag***           | ***Total*** |
-|---------------------|-------|
+###Puntos por *tags*
+
+| **Tag**           | **Total** |
+|:--------------------|-------:|
 | ruins               | 2284  |
 | monument            | 1826  |
 | archaeological_site | 1213  |
