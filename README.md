@@ -14,8 +14,9 @@ Total de puntos: 8144
 
 Puntos por *tags*
 
-|         Tag         	| Total 	|
 |:-------------------:	|:-----:	|
+|         Tag         	| Total 	|
+|:------------------- 	|-----:	|
 | ruins               	| 2284  	|
 | monument            	| 1826  	|
 | archaeological_site 	| 1213  	|
