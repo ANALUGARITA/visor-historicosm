@@ -42,5 +42,17 @@
       map.setView(position, zoom)
       })
 
+      $('#peninsula').click(function(){
+      var position = new L.LatLng(40.416667, -3.75);
+       var zoom = 6;
+      map.setView(position, zoom)
+      })
+      $('#canarias').click(function(){
+      var position = new L.LatLng(28.681,-15.743);
+      var zoom = 8;
+      map.setView(position, zoom)
+      })
+
+
       window.onload = main;
     
