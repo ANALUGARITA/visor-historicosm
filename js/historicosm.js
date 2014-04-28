@@ -1,6 +1,5 @@
-
       function main() {
-        cartodb.createVis('map', 'http://sigdeletras.cartodb.com/api/v2/viz/ee775ae8-c4de-11e3-afe5-0e73339ffa50/viz.json', {
+        cartodb.createVis('map', 'http://sigdeletras.cartodb.com/api/v2/viz/5c93b55e-ced9-11e3-99e6-0e10bcd91c2b/viz.json', {
             shareable: true,
             //title: true,
             //description: true,
