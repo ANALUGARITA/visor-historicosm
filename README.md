@@ -6,11 +6,11 @@ Visor HistoricOSM
          
 ##Descripción
       
-El siguiente visor es el resultado de un primer análisis de la información geográfica de tipo patrimonial disponible en [OpenStreetMap](http://www.openstreetmap.org) bajo la clave [*historic*](http://wiki.openstreetmap.org/wiki/Key:historic). El total de puntos documentados a 26 de abril de 2014 ha sido de **8144**. En este número se incluye las entidades de tipo puntual y los centroides de las entidades de tipo área.
+El siguiente visor es el resultado de un primer **análisis de la información geográfica de tipo patrimonial disponible en [OpenStreetMap](http://www.openstreetmap.org) bajo la clave [*historic*](http://wiki.openstreetmap.org/wiki/Key:historic)**. El total de puntos documentados a 26 de abril de 2014 ha sido de **8144**. En este número se incluye las entidades de tipo puntual y los centroides de las entidades de tipo área.
 
 Con este trabajo se pretende examinar las posibilidades de uso por parte de particulares, administraciones o empresas que estén interesados, gestionen o quieran desarrollar proyectos patrimoniales basados en los datos de OpenStreetMap.
 
-De igual modo, espero que la presentación de estos resultados ***facilite la colaboración de más usuarios ***con el objetivo de mejorar el volumen y calidad de la información existente. Como ejemplo  participativo, sirvan los trabajos de mejora de información geográfica sobre los Bienes de Interés Cultural de <a href="http://wiki.openstreetmap.org/wiki/ES:Bienes_de_Inter%C3%A9s_Cultural_en_Canarias" target="_blank">Canarias</a> o <a href="http://wiki.openstreetmap.org/wiki/ES:Bienes_de_Inter%C3%A9s_Cultural_de_C%C3%B3rdoba" target="_blank">Córdoba</a>
+De igual modo, espero que la presentación de estos resultados **facilite la colaboración de más usuarios** con el objetivo de mejorar el volumen y calidad de la información existente. Como ejemplo  participativo, sirvan los trabajos de mejora de información geográfica sobre los Bienes de Interés Cultural de <a href="http://wiki.openstreetmap.org/wiki/ES:Bienes_de_Inter%C3%A9s_Cultural_en_Canarias" target="_blank">Canarias</a> o <a href="http://wiki.openstreetmap.org/wiki/ES:Bienes_de_Inter%C3%A9s_Cultural_de_C%C3%B3rdoba" target="_blank">Córdoba</a>
 
 Los datos, generados por los colaborados de OpenStreetMap, han sido almacenados para su presentación en <a href="http://cartodb.com/">CartoDB</a> y se encuentran bajo licencia <a href="http://www.openstreetmap.org/copyright">CC-BY-SA y ODbL</a>. Pueden ser descargados en distintos formatos (csv, geojson, kml o shape o svg) desde este <a href="http://sigdeletras.cartodb.com/tables/historicosm/public" target="_blank">enlace</a>.
 
