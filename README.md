@@ -1,12 +1,14 @@
 Visor HistoricOSM
 =================
    
-*Fecha de actualización: 26/04/2014*
+*Fecha de actualización de los datos: 26/04/2014*
         
          
 ##Descripción
       
-El siguiente visor es el resultado de un primer **análisis de la información geográfica de tipo patrimonial disponible en [OpenStreetMap](http://www.openstreetmap.org) bajo la clave [*historic*](http://wiki.openstreetmap.org/wiki/Key:historic)**. El total de puntos documentados a 26 de abril de 2014 ha sido de **8144**. En este número se incluye las entidades de tipo puntual y los centroides de las entidades de tipo área.
+El siguiente visor es el resultado de un primer **análisis de la información geográfica de tipo patrimonial para España disponible en [OpenStreetMap](http://www.openstreetmap.org) bajo la clave [*historic*](http://wiki.openstreetmap.org/wiki/Key:historic)**. El total de puntos documentados a 26 de abril de 2014 ha sido de **8144**. En este número se incluye las entidades de tipo puntual y los centroides de las entidades de tipo área.
+
+Una buena introducción al uso de la eiqueta *historic* puede encontrarse en la misma [wiki de OpenStreetMap](http://wiki.openstreetmap.org/wiki/Historic)
 
 Con este trabajo se pretende examinar las posibilidades de uso por parte de particulares, administraciones o empresas que estén interesados, gestionen o quieran desarrollar proyectos patrimoniales basados en los datos de OpenStreetMap.
 
