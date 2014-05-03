@@ -141,9 +141,11 @@ La información asociada a cada punto es:
 
 [**historic:ruins**](http://wiki.openstreetmap.org/wiki/Tag:historic%3Druins)
 
-Con 2284 puntos, *ruins* es el valor más usado (28%) pero pensamos que su uso en gran medida es erróneo. Una revisión del valor de *name* relacionado con esta etiqueta, nos indican que  un porcentaje muy elevado de elementos podrían pasar a otras valores o incluso a subtipos (site_type=amphitheatre) mejor definidos como, monumento (iglesia, ermita, hospital), castillo (atalaya, torre, castillo, castello, castell, castello, castellot, fortaleza o alcázar) o yacimiento arqueológico (cueva, yacimiento (idiomas), arqueol?, anfiteatro, foro, forum, dolmen, villa,  domus, acueducto, circo, castro, *castrum*, termas). 
+Con 2284 puntos, *ruins* es el valor más usado (28%) pero pensamos que su uso en gran medida es erróneo. Según la wiki, *ruins* la práctica correcta sería  usar este valor cuando nos encontramos con un bien inmueble y no podemos asignarle de forma clara un valor asignado a su función. 
 
-Pensamos que *historic:ruins* podría tener más utilidad si se usara de forma vinculada a otras etiquetas como *ruins=yes*.
+Una revisión del valor de *name* relacionado con esta etiqueta, nos indican que  un porcentaje muy elevado de elementos podrían pasar a otras valores o incluso a subtipos (site_type=amphitheatre) mejor definidos como, monumento (iglesia, ermita, hospital), castillo (atalaya, torre, castillo, castello, castell, castello, castellot, fortaleza o alcázar) o yacimiento arqueológico (cueva, yacimiento (idiomas), arqueol?, anfiteatro, foro, forum, dolmen, villa,  domus, acueducto, circo, castro, *castrum*, termas). 
+
+Pensamos que *historic:ruins* podría tener más utilidad si se usara de forma vinculada a otras etiquetas como *ruins=yes* orientando su uso al estado de conservación.
 
 [**historic:monument**](http://wiki.openstreetmap.org/wiki/Tag:historic%3Dmonument)
 
